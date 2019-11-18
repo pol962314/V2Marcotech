@@ -9,6 +9,11 @@
     opacity: 0.6;
 }
 
+#citas{
+    background: #ffc107ad;
+    color: #404040;
+    vertical-align: middle;
+}
 
 
 #main-banner{
@@ -40,7 +45,32 @@
     #main-logo{
         padding-bottom: 5px;
         padding-top: 5px;
-        width: 230px;
-        height: 120px;
+        width: 300px;
+        height: 150px;
+    }
+}
+
+#contact-info{
+    background: #333;
+    color: white;
+    text-align: center;
+}
+
+
+#contact-info .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;  
+}
+
+@media (min-width:480px) {
+    .info-contact {
+        width: 50%;
+    }
+}
+
+@media (min-width:1024px) {
+    .info-contact {
+        width: auto;
     }
 }
